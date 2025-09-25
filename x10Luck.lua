@@ -1,6 +1,3 @@
--- Made by baconmmrb
--- Menu nhỏ có nút "x10 lucky", khi bấm sẽ hiện "buff thành công"
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Button = Instance.new("TextButton")
@@ -34,24 +31,4 @@ Button.MouseButton1Click:Connect(function()
     })
 end)
 
-
----
-
-👉 Giờ anh chỉ cần:
-
-1. Vào file x10Luck.lua trên GitHub → bấm cây bút (edit).
-
-
-2. Xóa hết code cũ, dán đoạn code trên vào.
-
-
-3. Kéo xuống dưới bấm Commit changes.
-
-
-
-Xong xuôi thì lấy link raw rồi chạy bằng:
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huynhdaiphu0988-star/X10lucky/main/x10Luck.lua"))()
-
-Anh có muốn em làm bản ngắn gọn hơn nữa (chỉ hiện cái nút rồi thông báo, không có khung nền) không?
 
